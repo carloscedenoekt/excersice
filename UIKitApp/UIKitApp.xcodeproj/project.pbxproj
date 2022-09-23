@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0223085A28DE05B4009AB81A /* DashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0223085928DE05B4009AB81A /* DashView.swift */; };
+		0223085C28DE06E6009AB81A /* DashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0223085B28DE06E6009AB81A /* DashViewController.swift */; };
 		1CAE369E28D2672C008E10A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE369D28D2672C008E10A3 /* AppDelegate.swift */; };
 		1CAE36A028D2672C008E10A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE369F28D2672C008E10A3 /* SceneDelegate.swift */; };
 		1CAE36A728D26732008E10A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAE36A628D26732008E10A3 /* Assets.xcassets */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0223085928DE05B4009AB81A /* DashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashView.swift; sourceTree = "<group>"; };
+		0223085B28DE06E6009AB81A /* DashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashViewController.swift; sourceTree = "<group>"; };
 		1CAE369A28D2672C008E10A3 /* UIKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAE369D28D2672C008E10A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CAE369F28D2672C008E10A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +163,8 @@
 				1CAE36CE28D2F56C008E10A3 /* WelcomeViewController.swift */,
 				1CAE36D028D2F5AE008E10A3 /* WelcomeView.swift */,
 				1CAE36D328D2F5E3008E10A3 /* WelcomeViewDelegate.swift */,
+				0223085928DE05B4009AB81A /* DashView.swift */,
+				0223085B28DE06E6009AB81A /* DashViewController.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -345,6 +351,7 @@
 			files = (
 				1CAE3B5628D37F43008E10A3 /* PrimaryTextField.swift in Sources */,
 				1CAE36DF28D36FE6008E10A3 /* SignInView.swift in Sources */,
+				0223085C28DE06E6009AB81A /* DashViewController.swift in Sources */,
 				1CAE36E128D3700D008E10A3 /* SignInConstants.swift in Sources */,
 				1CAE3B5228D37F0D008E10A3 /* CustomColor.swift in Sources */,
 				1CAE36D128D2F5AE008E10A3 /* WelcomeView.swift in Sources */,
@@ -353,6 +360,7 @@
 				1CAE36E328D3703A008E10A3 /* SignInStyles.swift in Sources */,
 				1CAE36E928D371BC008E10A3 /* LocalizableKeys.swift in Sources */,
 				1CAE36CF28D2F56C008E10A3 /* WelcomeViewController.swift in Sources */,
+				0223085A28DE05B4009AB81A /* DashView.swift in Sources */,
 				1CAE369E28D2672C008E10A3 /* AppDelegate.swift in Sources */,
 				1CAE36D728D2F60B008E10A3 /* Constants.swift in Sources */,
 				1CAE36D428D2F5E3008E10A3 /* WelcomeViewDelegate.swift in Sources */,

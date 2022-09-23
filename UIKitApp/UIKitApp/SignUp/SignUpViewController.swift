@@ -15,7 +15,7 @@ final class SignUpViewController: UIViewController {
     
     // MARK: - IBActions
     @IBAction func didTapSignUp(_ sender: Any) {
-        let homeView =  self.storyboard?.instantiateViewController(withIdentifier: "welcomevc") as! WelcomeViewController
+        let homeView =  self.storyboard?.instantiateViewController(withIdentifier: "DashView") as! DashViewController
         self.present(homeView, animated: true, completion: nil)
     }
     
